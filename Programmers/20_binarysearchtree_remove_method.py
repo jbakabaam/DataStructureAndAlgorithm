@@ -131,8 +131,8 @@ class BinSearchTree:
           else:
               parent.right = successor.right
         return True
-      else:
-        return False
+    else:
+      return False
 
     def inorder(self):
       if self.root:
